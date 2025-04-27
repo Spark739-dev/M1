@@ -10,8 +10,27 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+     #include <stdio.h>
+     int main()
+    {
+    char ch1, ch2, ch3;
+    printf("Enter first character: ");
+    scanf(" %c", &ch1);
+    printf("Enter second character: ");
+    scanf(" %c", &ch2);
+    printf("Enter third character: ");
+    scanf(" %c", &ch3);
+    printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
+    return 0;
+    }
+
+
 
 ## OUTPUT:
+     Enter first character: X
+     Enter second character: M
+     Enter third character: L
+     Characters in reverse order: L M X
 
 
 
@@ -46,8 +65,20 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
-
+      #include <stdio.h>
+      int main() {
+      int A;
+      printf("Enter a number:");
+      scanf("%d",&A);
+      if(a>0) {
+        printf("%d is positive",A);
+      } else{
+        printf("%d, is negative",A);
+     }
+  }
 # OUTPUT:
+    Enter a number:10
+    10 is positive
 
 
 
